@@ -305,7 +305,7 @@ p,h1,h2,h3,ul{
   width: 220px;
   height: 250px;
   overflow: hidden;
-  box-shadow: 0 4px 10px #1D287720;
+  box-shadow: 0 4px 10px rgba(29, 40, 119, 0.2);
   position: relative;
   cursor: pointer;
 }
