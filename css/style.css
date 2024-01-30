@@ -35,7 +35,7 @@ p,h1,h2,h3,ul{
   align-items: center;
   padding: 10px 60px;
   max-width: 1280px;
-  max-height: 72px;
+  /* max-height: 72px; */
   margin: 0 auto;
 }
 .nav-list img{
@@ -51,6 +51,7 @@ p,h1,h2,h3,ul{
 	width: 100px;
 }
 .nav-list ul li a{
+	width: 100px;
   font-family: 'Noto Serif TC', serif;
   color: #1D2877;
   font-weight: bold;
@@ -68,6 +69,26 @@ p,h1,h2,h3,ul{
   position: absolute;
   left: 10%;
   bottom: -5px;
+}
+@media (max-width: 768px){
+  .nav-list{
+    display: block;
+  }
+  .nav-list img{
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .nav-list ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav-list ul li{
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .nav-list li a{
+    margin: 0 auto;
+  }
 }
 
 .banner{
@@ -160,7 +181,7 @@ p,h1,h2,h3,ul{
 .intro1-img{
   margin-left: 30px;
   width: 445px;
-  background-image: url(https://shoplineimg.com/59cb39b849267867b30017f6/617fba9a3d2fdd0017df24e1/800x.webp?source_format=jpg);
+  background-image: url("https://shoplineimg.com/59cb39b849267867b30017f6/617fba9a3d2fdd0017df24e1/800x.webp?source_format=jpg");
   background-size: cover;
   background-position: center;
 }
@@ -203,7 +224,7 @@ p,h1,h2,h3,ul{
   width: 445px;
   margin: 0 30px;
   background-color: rgba(29, 40, 119, 0.2);
-  background-image: url(https://i.imgur.com/izFbugf.png);
+  background-image: url("../img/cake3.png");
   background-size: cover;
   background-position: center center;
 }
